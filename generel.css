@@ -1,0 +1,403 @@
+/*************** Reset *********************/
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: inline-block;
+}
+
+body {
+  background-color: #151515;
+}
+
+main {
+  margin-left: 120px;
+  margin-right: 120px;
+  padding-bottom: 80px;
+}
+
+li {
+  list-style-type: none;
+}
+ul {
+  padding: 0;
+}
+
+/****** Header *****/
+
+.headermenu {
+  margin-top: 20px;
+  text-align: center;
+  max-width: none;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  border-top: 1px solid white;
+  margin-bottom: 30px;
+}
+.headermenu h1 {
+  font-size: 80px;
+  display: inline-block;
+  font-family: "roboto", sans-serif;
+  color: white;
+  padding-bottom: 20px;
+}
+
+/****** Menu Forside ******/
+.forside_menu li {
+  display: block;
+}
+.forside_menu a {
+  margin-right: 30px;
+  margin-left: 30px;
+  font-size: 45px;
+  font-family: "Oswald", sans-serif;
+  color: white;
+  place-items: center;
+  text-decoration: none;
+}
+.forside_menu a:hover {
+  cursor: pointer;
+  color: crimson;
+}
+
+.forside_menu {
+  text-align: center;
+  padding-top: 100px;
+}
+
+/***** Menu *****/
+
+.menu li {
+  display: inline-block;
+}
+.menu a {
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 30px;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: -1px;
+  color: #3934e6;
+  text-decoration: none;
+}
+
+/***** footer *****/
+footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-top: 1px solid white;
+}
+footer p {
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  color: white;
+  font-size: 15px;
+}
+
+/***** Forside *****/
+
+.forside_overskrift {
+  font-family: "Roboto", sans-serif;
+  font-size: 50px;
+  letter-spacing: -3px;
+  color: white;
+  text-align: center;
+}
+
+.forside_overskrift h2 {
+  margin-top: 200px;
+}
+
+.forside_baggrund {
+  width: 100%;
+  height: 100vh;
+  background-image: url(img/forsidebillede.jpg);
+  background-size: cover;
+}
+
+/***** Om mig *****/
+
+.ommig_tekst h2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 50px;
+  letter-spacing: -3px;
+  color: #3934e6;
+  margin-bottom: 30px;
+  margin-top: -19px;
+}
+
+.ommig_tekst h3 {
+  font-family: "Oswald", sans-serif;
+  font-size: 50px;
+  letter-spacing: -3px;
+  color: #3934e6;
+  margin-bottom: 30px;
+}
+
+.ommig_tekst p {
+  font-family: "Raleway", serif;
+  font-size: 16px;
+  line-height: 1.3;
+  margin-bottom: 25px;
+  color: white;
+}
+
+/***** Portfolio *****/
+
+.portfolio_grid a {
+  text-decoration: none;
+}
+
+.portfolio_grid h2 {
+  font-family: "Roboto", sans-serif;
+  margin-top: 50px;
+  color: white;
+}
+
+.portfolio_grid h3 {
+  font-family: "Oswald", sans-serif;
+  color: #3934e6;
+  margin-bottom: 20px;
+}
+
+.linkbox {
+  margin-top: 50px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+.portfolio_grid a:hover {
+  opacity: 0.8;
+  cursor: pointer;
+  filter: brightness(1);
+}
+
+.portfolio_grid img {
+  margin-bottom: 80px;
+}
+
+/***** tema2 *****/
+
+.tema2_grid h2 {
+  font-family: "Oswald", sans-serif;
+  color: #3934e6;
+  font-size: 50px;
+  letter-spacing: -2px;
+  margin-bottom: 20px;
+  margin-top: -18px;
+}
+.tema2_grid p {
+  font-family: "Raleway", sans-serif;
+  color: white;
+  font-size: 16px;
+  max-width: 450px;
+  margin-bottom: 15px;
+}
+
+.tema2_grid a {
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  color: #3934e6;
+  font-weight: bold;
+}
+.tema_billeder {
+  display: grid;
+  gap: 20px;
+}
+
+/***** tema3 *****/
+.tema3_grid h2 {
+  font-family: "Oswald", sans-serif;
+  color: #3934e6;
+  font-size: 50px;
+  letter-spacing: -2px;
+  margin-bottom: 20px;
+  margin-top: -18px;
+}
+.tema3_grid p {
+  font-family: "Raleway", sans-serif;
+  color: white;
+  font-size: 16px;
+  max-width: 450px;
+  margin-bottom: 15px;
+}
+
+.tema3_grid a {
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  color: #3934e6;
+  font-weight: bold;
+}
+/***** tema4 *****/
+.tema4_grid h2 {
+  font-family: "Oswald", sans-serif;
+  color: #3934e6;
+  font-size: 50px;
+  letter-spacing: -2px;
+  margin-bottom: 20px;
+  margin-top: -18px;
+}
+.tema4_grid p {
+  font-family: "Raleway", sans-serif;
+  color: white;
+  font-size: 16px;
+  max-width: 450px;
+  margin-bottom: 15px;
+}
+
+.tema4_grid a {
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  color: #3934e6;
+  font-weight: bold;
+}
+/***** tema5 *****/
+.tema5_grid h2 {
+  font-family: "Oswald", sans-serif;
+  color: #3934e6;
+  font-size: 50px;
+  letter-spacing: -2px;
+  margin-bottom: 20px;
+  margin-top: -18px;
+}
+.tema5_grid p {
+  font-family: "Raleway", sans-serif;
+  color: white;
+  font-size: 16px;
+  max-width: 450px;
+  margin-bottom: 15px;
+}
+
+.tema5_grid a {
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  color: #3934e6;
+  font-weight: bold;
+}
+/***** tema6 *****/
+.tema6_grid h2 {
+  font-family: "Oswald", sans-serif;
+  color: #3934e6;
+  font-size: 50px;
+  letter-spacing: -2px;
+  margin-bottom: 20px;
+  margin-top: -18px;
+}
+.tema6_grid p {
+  font-family: "Raleway", sans-serif;
+  color: white;
+  font-size: 16px;
+  max-width: 450px;
+  margin-bottom: 15px;
+}
+
+.tema6_grid a {
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  color: #3934e6;
+  font-weight: bold;
+}
+
+/***** Mobilversion *****/
+
+@media (max-width: 800px) {
+  main {
+    margin: 20px;
+  }
+
+  .headermenu h1 {
+    font-size: 70px;
+  }
+
+  .menu a {
+    font-size: 25px;
+  }
+
+  .forside_overskrift {
+    font-size: 35px;
+  }
+
+  /***** Portfolio Mobile *****/
+
+  .linkbox {
+    margin-top: 90px;
+  }
+
+  .portfolio h3 {
+    font-size: 12px;
+  }
+
+  /***** OM MIG Mobile *****/
+
+  .ommig_grid {
+    display: grid;
+    place-items: center;
+  }
+
+  .ommig_grid h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  /***** TEMA Mobile *****/
+
+  .tema2_grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 50px;
+  }
+
+  .tema3_grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 50px;
+  }
+
+  .tema4_grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 50px;
+  }
+
+  .tema5_grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 50px;
+  }
+
+  .tema6_grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 50px;
+  }
+}
+
+/***** Animation *****/
+
+.hidden {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 1s;
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+
+/**** fjerner animation i mobil version ****/
+
+@media (max-width: 800px) {
+  .hidden {
+    transition: none;
+  }
+}
